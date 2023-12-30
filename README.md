@@ -17,18 +17,19 @@ Esta é uma aplicação pessoal que utiliza React no front-end, Tailwind CSS par
    git clone https://github.com/seu-usuario/sua-aplicacao.git
 Navegue até o diretório do front-end:
 
-
-cd sua-aplicacao/frontend
+   ```bash
+   cd sua-aplicacao/frontend 
 Instale as dependências:
 
-
-npm install
+   ```bash
+   npm install
 Executando o Front-end
 
-npm start
+   ```bash
+   npm start
 O front-end estará acessível em http://localhost:3000.
 
-Configuração do Back-end (Node.js + MySQL)
+## Configuração do Back-end (Node.js + MySQL)
 Pré-requisitos
 Node.js
 npm (gerenciador de pacotes para Node.js)
@@ -39,22 +40,25 @@ Copie o arquivo .env.example para .env e configure as variáveis de ambiente rel
 Instalação
 Navegue até o diretório do back-end:
 
+   ```bash
+   cd sua-aplicacao/backend
 
-cd sua-aplicacao/backend
 Instale as dependências:
 
+   ```bash
+   npm install
 
-npm install
 Executando o Back-end
+   ```bash
+   npm start
 
-npm start
 O back-end estará acessível em http://localhost:4000.
 
 Executando Ambos (Front-end e Back-end)
 Se desejar executar tanto o front-end quanto o back-end simultaneamente, você pode usar um script para isso. No diretório raiz do projeto, execute:
 
-
-npm run dev
+   ```bash
+   npm run dev
 Isso iniciará tanto o front-end quanto o back-end em paralelo.
 
 Contribuindo
